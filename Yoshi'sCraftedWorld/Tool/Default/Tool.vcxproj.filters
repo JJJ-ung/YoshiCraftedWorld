@@ -1,0 +1,461 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00 WinApp">
+      <UniqueIdentifier>{fe07b42a-4601-4676-8ad2-085ada7c426f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99 Default">
+      <UniqueIdentifier>{4a157031-6730-4776-8c33-70011f4a35da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99 Default\리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01 Document">
+      <UniqueIdentifier>{e2bcf025-70a5-416b-b30a-760c981c9255}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 FrameWnd">
+      <UniqueIdentifier>{fe488cfd-7c3e-4888-8cac-bc05adbe97c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03 ToolView">
+      <UniqueIdentifier>{60b04b0d-bb6f-45a6-8483-25da0ef05de9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 ToolMenu">
+      <UniqueIdentifier>{b621a539-34d5-4056-ad90-a198dd3bb9f5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject">
+      <UniqueIdentifier>{5ad7371b-c7c0-4ece-bdc3-b544dc6a4846}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\00 Terrain">
+      <UniqueIdentifier>{39bdc3ed-6f31-4a1e-a5c3-e0bbe7194225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98 Headers">
+      <UniqueIdentifier>{fdf47cfd-2141-4c9e-bf2b-b1551ed09b33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components">
+      <UniqueIdentifier>{88e0fe3d-d51c-482c-b11d-b0758c14fb7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 ToolMenu\00 Main">
+      <UniqueIdentifier>{87fd3173-858c-4e99-a592-fe7cba4b5743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 ToolMenu\01 Objects">
+      <UniqueIdentifier>{54878195-d6f5-45a4-adbd-ee1a4b0b2087}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 ToolMenu\02 Gimmicks">
+      <UniqueIdentifier>{ae5f58cd-5e60-474f-b0e0-0fc9d4658b3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 ToolMenu\03 Navigation">
+      <UniqueIdentifier>{4d6ee4ea-5858-4a86-af3c-0f5067342e86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 ToolMenu\04 Animation">
+      <UniqueIdentifier>{ec90e9fe-f498-456f-a9f7-1e3dd3b9b278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\Mesh">
+      <UniqueIdentifier>{39b8142f-3139-451c-9a11-e28e07d6abdf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\Shader">
+      <UniqueIdentifier>{b1d93796-4ca0-4559-9d70-44679e101806}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\Texture">
+      <UniqueIdentifier>{88569d25-fe0a-4e9f-8164-eaaa6e5970a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\Transform">
+      <UniqueIdentifier>{5e4c23f3-f587-4f81-a9f6-6aca8f4c6d4d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\VIBuffers">
+      <UniqueIdentifier>{72797890-7b83-4895-a4ea-7fcaa0a95300}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\VIBuffers\Rect_Texture">
+      <UniqueIdentifier>{b69a61e4-b111-4d2e-8ba0-2acd5abd3f5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\VIBuffers\Terrain">
+      <UniqueIdentifier>{71df5a96-9487-4515-ab73-bb25fbe78c0b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95 FilePath">
+      <UniqueIdentifier>{96031741-dc43-4dfb-82f0-d101a9096f0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96 Managers">
+      <UniqueIdentifier>{ed7c019d-5d63-4d6b-bad7-c93c96d54dc3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96 Managers\00 GraphicDev">
+      <UniqueIdentifier>{e12bed62-c702-4512-afa5-3ddcff277ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96 Managers\01 InputDev">
+      <UniqueIdentifier>{6eedf6fe-bd5b-417d-a12f-6cc831423480}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96 Managers\02 ObjectMgr">
+      <UniqueIdentifier>{480ce1dc-e41d-45b5-beb2-a07a27ae3542}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97 ShaderFiles">
+      <UniqueIdentifier>{7969e543-bfc9-494c-b12d-3c4afe5fddbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\Calculator">
+      <UniqueIdentifier>{adebb900-53e0-46e0-a65f-b904958aa872}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\01 Object">
+      <UniqueIdentifier>{5a76d387-f439-40c9-a853-7190c4a3d1e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\02 Gimmick">
+      <UniqueIdentifier>{96f7d5ba-1fda-4faa-aa9d-577ea18a7517}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\98 Mouse">
+      <UniqueIdentifier>{05943d45-ef16-42c4-938d-60d7254ec6e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\03 PathPoint">
+      <UniqueIdentifier>{df85a9bb-e1b4-4017-8943-00ed3af31091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\Line">
+      <UniqueIdentifier>{a00fc904-7ca2-4afd-9d98-c0db4ed65d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\Mesh\Static">
+      <UniqueIdentifier>{c1d3b38e-4d22-4717-aa78-c651ec83a268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\Mesh\Sphere">
+      <UniqueIdentifier>{3cedf4da-595b-4b95-a8fe-138e80519d69}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\05 Effect">
+      <UniqueIdentifier>{6e23de88-509d-49c1-818d-4b2371ed1c3f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\06 Unit">
+      <UniqueIdentifier>{debd6d5b-4eb0-49e9-b573-405863ea4175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\05 Effect\Particle System">
+      <UniqueIdentifier>{8e0de1d9-b5cd-458a-bcf4-6cdcbc597fe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\05 Effect\Particle">
+      <UniqueIdentifier>{c4154725-ed88-4998-91f0-6776cb418729}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\05 Effect\Emitter">
+      <UniqueIdentifier>{22fc8f07-1270-4314-a812-fabab4a75d59}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 ToolMenu\05 Particle">
+      <UniqueIdentifier>{8c33af5b-9724-4aeb-ab35-71380f89e060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 ToolMenu\05 Particle\Edit Particle">
+      <UniqueIdentifier>{7e528d19-8683-45fe-8068-11bd5ed7daf7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04 ToolMenu\00 Main\Path Extract">
+      <UniqueIdentifier>{966b7522-e7c9-427d-8540-d99b24c71e06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\07 CameraPoint">
+      <UniqueIdentifier>{c795e20b-22ec-4fba-a402-0f4d7f6bdea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\Mesh\Dynamic">
+      <UniqueIdentifier>{47cdb199-1fac-44b2-b107-9d949954f5cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\Mesh\Dynamic\AnimationCtrl">
+      <UniqueIdentifier>{e200a206-95f2-4667-a10d-fad9fe8477f1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06 Components\Mesh\Dynamic\Loader">
+      <UniqueIdentifier>{0574569e-e4cb-43bd-9639-160518df1150}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\99 Camera">
+      <UniqueIdentifier>{05c6b30a-0462-4613-ab34-c1d9a741d1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05 GameObject\04 Trigger">
+      <UniqueIdentifier>{dd24fdca-a7b7-4c67-9216-307bfd663210}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>99 Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99 Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99 Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>00 WinApp</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>01 Document</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>02 FrameWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>03 ToolView</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolMenu.h">
+      <Filter>04 ToolMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\FileInfo.h">
+      <Filter>95 FilePath</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>04 ToolMenu\00 Main</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectMenu.h">
+      <Filter>04 ToolMenu\01 Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="GimmickMenu.h">
+      <Filter>04 ToolMenu\02 Gimmicks</Filter>
+    </ClInclude>
+    <ClInclude Include="NavigationMenu.h">
+      <Filter>04 ToolMenu\03 Navigation</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationMenu.h">
+      <Filter>04 ToolMenu\04 Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Tool_Defines.h">
+      <Filter>98 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Tool_Struct.h">
+      <Filter>98 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Tool_Typedef.h">
+      <Filter>98 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Tool_Function.h">
+      <Filter>98 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Tool_Macro.h">
+      <Filter>98 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\GameObject.h">
+      <Filter>05 GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Component.h">
+      <Filter>06 Components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Shader.h">
+      <Filter>06 Components\Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Texture.h">
+      <Filter>06 Components\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Buffer_RcTex.h">
+      <Filter>06 Components\VIBuffers\Rect_Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Buffer_Terrain.h">
+      <Filter>06 Components\VIBuffers\Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Graphic_Device.h">
+      <Filter>96 Managers\00 GraphicDev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Object_Manager.h">
+      <Filter>96 Managers\02 ObjectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\VIBuffer.h">
+      <Filter>06 Components\VIBuffers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Terrain.h">
+      <Filter>05 GameObject\00 Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Transform.h">
+      <Filter>06 Components\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Input_Device.h">
+      <Filter>96 Managers\01 InputDev</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Camera.h">
+      <Filter>05 GameObject\99 Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Calculator.h">
+      <Filter>06 Components\Calculator</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Mouse.h">
+      <Filter>05 GameObject\98 Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\StaticMesh.h">
+      <Filter>06 Components\Mesh\Static</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\MapObject.h">
+      <Filter>05 GameObject\01 Object</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\SphereMesh.h">
+      <Filter>06 Components\Mesh\Sphere</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\PathPoint.h">
+      <Filter>05 GameObject\03 PathPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Unit.h">
+      <Filter>05 GameObject\06 Unit</Filter>
+    </ClInclude>
+    <ClInclude Include="ParticleMenu.h">
+      <Filter>04 ToolMenu\05 Particle</Filter>
+    </ClInclude>
+    <ClInclude Include="PathExtract.h">
+      <Filter>04 ToolMenu\00 Main\Path Extract</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\CameraPoint.h">
+      <Filter>05 GameObject\07 CameraPoint</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\DynamicMesh.h">
+      <Filter>06 Components\Mesh\Dynamic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\AnimationCtrl.h">
+      <Filter>06 Components\Mesh\Dynamic\AnimationCtrl</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\HierarchyLoader.h">
+      <Filter>06 Components\Mesh\Dynamic\Loader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Gimmick.h">
+      <Filter>05 GameObject\02 Gimmick</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Headers\Trigger.h">
+      <Filter>05 GameObject\04 Trigger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99 Default</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>00 WinApp</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>01 Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>02 FrameWnd</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>03 ToolView</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolMenu.cpp">
+      <Filter>04 ToolMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\FileInfo.cpp">
+      <Filter>95 FilePath</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>04 ToolMenu\00 Main</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectMenu.cpp">
+      <Filter>04 ToolMenu\01 Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="GimmickMenu.cpp">
+      <Filter>04 ToolMenu\02 Gimmicks</Filter>
+    </ClCompile>
+    <ClCompile Include="NavigationMenu.cpp">
+      <Filter>04 ToolMenu\03 Navigation</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationMenu.cpp">
+      <Filter>04 ToolMenu\04 Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Buffer_RcTex.cpp">
+      <Filter>06 Components\VIBuffers\Rect_Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Buffer_Terrain.cpp">
+      <Filter>06 Components\VIBuffers\Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\GameObject.cpp">
+      <Filter>05 GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Graphic_Device.cpp">
+      <Filter>96 Managers\00 GraphicDev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Object_Manager.cpp">
+      <Filter>96 Managers\02 ObjectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Shader.cpp">
+      <Filter>06 Components\Shader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Texture.cpp">
+      <Filter>06 Components\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\VIBuffer.cpp">
+      <Filter>06 Components\VIBuffers</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Terrain.cpp">
+      <Filter>05 GameObject\00 Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Transform.cpp">
+      <Filter>06 Components\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Input_Device.cpp">
+      <Filter>96 Managers\01 InputDev</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Camera.cpp">
+      <Filter>05 GameObject\99 Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Calculator.cpp">
+      <Filter>06 Components\Calculator</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Mouse.cpp">
+      <Filter>05 GameObject\98 Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\StaticMesh.cpp">
+      <Filter>06 Components\Mesh\Static</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\MapObject.cpp">
+      <Filter>05 GameObject\01 Object</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\SphereMesh.cpp">
+      <Filter>06 Components\Mesh\Sphere</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Component.cpp">
+      <Filter>06 Components</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\PathPoint.cpp">
+      <Filter>05 GameObject\03 PathPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Unit.cpp">
+      <Filter>05 GameObject\06 Unit</Filter>
+    </ClCompile>
+    <ClCompile Include="ParticleMenu.cpp">
+      <Filter>04 ToolMenu\05 Particle</Filter>
+    </ClCompile>
+    <ClCompile Include="PathExtract.cpp">
+      <Filter>04 ToolMenu\00 Main\Path Extract</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\CameraPoint.cpp">
+      <Filter>05 GameObject\07 CameraPoint</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\DynamicMesh.cpp">
+      <Filter>06 Components\Mesh\Dynamic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\AnimationCtrl.cpp">
+      <Filter>06 Components\Mesh\Dynamic\AnimationCtrl</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\HierarchyLoader.cpp">
+      <Filter>06 Components\Mesh\Dynamic\Loader</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Gimmick.cpp">
+      <Filter>05 GameObject\02 Gimmick</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Codes\Trigger.cpp">
+      <Filter>05 GameObject\04 Trigger</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>99 Default\리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>99 Default\리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>99 Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool.ico">
+      <Filter>99 Default\리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>99 Default\리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99 Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Bin\Shader\Shader_Color.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Bin\Shader\Shader_Default.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Tool\Bin\Shader\Shader_Collider.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,328 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{37454529-5E37-480A-BA2E-AF3948D51CFB}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Client</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>..\Bin\Debug\</OutDir>
+    <IncludePath>$(WindowsSDK_IncludePath);$(IncludePath)</IncludePath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <OutDir>..\Bin\Release\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CLIENT;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../Reference/Headers/;../Headers/;./;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>dinput8.lib;Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <LargeAddressAware>true</LargeAddressAware>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>2.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+      <AdditionalIncludeDirectories>../../Reference/Headers/;../Headers/;./;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>../../Reference/Librarys/;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Engine.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>2.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Default\MonsterInfo.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Back_Logo.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Camera_Follow.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Camera_Free.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Camera_SideScroll.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Camera_Title.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Cloud.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Coin.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Effect_Hit.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Effect_Smoke.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Effect_Star.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\EggCursor.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Egg_Interact.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\EndingCredit.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Environment.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Flower.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\GoalEffect.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\GoalTape.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\GoalText.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Heart.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Heyho.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Heyho_State.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Hill.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Loading.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Loading_Image.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Loading_Screen.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Mouse_Manager.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\OneWayFloor.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Open_FlowerUI.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Packun.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Packun_State.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Road.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\RollTape.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Scene_Loading.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Scene_Logo.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Scene_Test.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Scene_Title.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Scene_Train.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Scene_WorldMap.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Sky.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\SoundMgr.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Stairs.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\State.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\StateMachine.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\SteamTrain.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\TrainA.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\TrainB.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\TrainPlatform.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\TransformBridge.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\TransformFountain.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\TransformHouse.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Trigger.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\UI_Coin.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\UI_Flower.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\UI_SingleFlower.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Yoshi_Egg.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Yoshi_Stage.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Yoshi_Stage_State.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Yoshi_Tongue.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Yoshi_Tongue_State.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Yoshi_World.h" />
+    <ClInclude Include="..\Headers\Defines.h" />
+    <ClInclude Include="..\Headers\MainApp.h" />
+    <ClInclude Include="Client.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="targetver.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Back_Logo.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Camera_Follow.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Camera_Free.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Camera_SideScroll.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Camera_Title.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Cloud.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Coin.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Effect_Hit.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Effect_Smoke.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Effect_Star.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\EggCursor.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Egg_Interact.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\EndingCredit.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Environment.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Flower.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\GoalEffect.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\GoalTape.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\GoalText.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Heart.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Heyho.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Heyho_State.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Hill.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Loading.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Loading_Image.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Loading_Screen.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Mouse_Manager.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\OneWayFloor.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Open_FlowerUI.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Packun.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Packun_State.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Road.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\RollTape.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Scene_Loading.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Scene_Logo.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Scene_Test.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Scene_Title.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Scene_Train.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Scene_WorldMap.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Sky.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\SoundMgr.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Stairs.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\SteamTrain.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\TrainA.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\TrainB.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\TrainPlatform.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\TransformBridge.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\TransformFountain.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\TransformHouse.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Trigger.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\UI_Coin.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\UI_Flower.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\UI_SingleFlower.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Yoshi_Egg.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Yoshi_Stage.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Yoshi_Stage_State.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Yoshi_Tongue.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Yoshi_Tongue_State.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Yoshi_World.cpp" />
+    <ClCompile Include="..\Codes\MainApp.cpp" />
+    <ClCompile Include="Client.cpp" />
+    <ClCompile Include="stdafx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Blend.fx" />
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Coin.fx" />
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Collider.fx" />
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Default.fx" />
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Effect.fx" />
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_LightAcc.fx" />
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Mesh.fx" />
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Sky.fx" />
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Terrain.fx" />
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_UI.fx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

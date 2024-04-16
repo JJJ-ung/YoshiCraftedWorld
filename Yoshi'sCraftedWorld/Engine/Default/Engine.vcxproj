@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{B04F0488-9A7C-4B48-88DB-E6BA797EAFC3}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Engine</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>..\Bin\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../Headers/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>2.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>../Headers/;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>d3d9.lib;d3dx9.lib;dxguid.lib;dinput8.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+    <FxCompile>
+      <ShaderType>Effect</ShaderType>
+    </FxCompile>
+    <FxCompile>
+      <ShaderModel>2.0</ShaderModel>
+    </FxCompile>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;_USRDLL;ENGINE_EXPORTS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\AnimationCtrl.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\Collider.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\Font.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\FontManager.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\Frustum.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\HierarchyLoader.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\Light.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\Light_Manager.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\MeshCollision.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\Mesh_Dynamic.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\Mesh_Static.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\Renderer.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\Target.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\Target_Manager.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\Timer.h" />
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Headers\Timer_Manager.h" />
+    <ClInclude Include="..\Headers\Base.h" />
+    <ClInclude Include="..\Headers\Buffer_RcTex.h" />
+    <ClInclude Include="..\Headers\Buffer_Terrain.h" />
+    <ClInclude Include="..\Headers\Component.h" />
+    <ClInclude Include="..\Headers\Component_Manager.h" />
+    <ClInclude Include="..\Headers\Engine_Defines.h" />
+    <ClInclude Include="..\Headers\Engine_Function.h" />
+    <ClInclude Include="..\Headers\Engine_Macro.h" />
+    <ClInclude Include="..\Headers\Engine_Struct.h" />
+    <ClInclude Include="..\Headers\Engine_Typedef.h" />
+    <ClInclude Include="..\Headers\GameObject.h" />
+    <ClInclude Include="..\Headers\Graphic_Device.h" />
+    <ClInclude Include="..\Headers\Input_Device.h" />
+    <ClInclude Include="..\Headers\Layer.h" />
+    <ClInclude Include="..\Headers\Management.h" />
+    <ClInclude Include="..\Headers\Object_Manager.h" />
+    <ClInclude Include="..\Headers\Scene.h" />
+    <ClInclude Include="..\Headers\Shader.h" />
+    <ClInclude Include="..\Headers\Texture.h" />
+    <ClInclude Include="..\Headers\Transform.h" />
+    <ClInclude Include="..\Headers\VIBuffer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\AnimationCtrl.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\Collider.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\Font.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\FontManager.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\Frustum.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\HierarchyLoader.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\Light.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\Light_Manager.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\MeshCollision.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\Mesh_Dynamic.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\Mesh_Static.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\Renderer.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\Target.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\Target_Manager.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\Timer.cpp" />
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Codes\Timer_Manager.cpp" />
+    <ClCompile Include="..\Codes\Base.cpp" />
+    <ClCompile Include="..\Codes\Buffer_RcTex.cpp" />
+    <ClCompile Include="..\Codes\Buffer_Terrain.cpp" />
+    <ClCompile Include="..\Codes\Component.cpp" />
+    <ClCompile Include="..\Codes\Component_Manager.cpp" />
+    <ClCompile Include="..\Codes\GameObject.cpp" />
+    <ClCompile Include="..\Codes\Graphic_Device.cpp" />
+    <ClCompile Include="..\Codes\Input_Device.cpp" />
+    <ClCompile Include="..\Codes\Layer.cpp" />
+    <ClCompile Include="..\Codes\Management.cpp" />
+    <ClCompile Include="..\Codes\Object_Manager.cpp" />
+    <ClCompile Include="..\Codes\Scene.cpp" />
+    <ClCompile Include="..\Codes\Shader.cpp" />
+    <ClCompile Include="..\Codes\Texture.cpp" />
+    <ClCompile Include="..\Codes\Transform.cpp" />
+    <ClCompile Include="..\Codes\VIBuffer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Bin\Shader\Shader_Blend.fx" />
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Bin\Shader\Shader_Collider.fx" />
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Engine\Bin\Shader\Shader_LightAcc.fx" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

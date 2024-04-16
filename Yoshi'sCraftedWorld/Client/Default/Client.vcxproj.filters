@@ -1,0 +1,695 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="00 MainApp">
+      <UniqueIdentifier>{0098c4f8-b057-4e62-a5ff-d4f848ab17af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99 Default">
+      <UniqueIdentifier>{869024c8-853d-4ff1-80b7-dfe9a84d04b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene">
+      <UniqueIdentifier>{84e2f057-3181-441b-b2d8-bd1c8b844dc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject">
+      <UniqueIdentifier>{021296f0-d181-4e33-896f-980a01ab6688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="97 ShaderFiles">
+      <UniqueIdentifier>{e6dad9cc-ae2b-4722-8d09-585ad61d685c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="98 Headers">
+      <UniqueIdentifier>{a1a6a99f-b973-4f54-848f-6ead38c9ca62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static">
+      <UniqueIdentifier>{3770d953-91e0-46e1-b309-4b0aecaee525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\00 Logo">
+      <UniqueIdentifier>{8edcb4ee-6b61-41e8-940d-8589ca99226d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\02 WorldMap">
+      <UniqueIdentifier>{f6445709-4b38-4897-8310-10a71a7b3612}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\03 Stage">
+      <UniqueIdentifier>{cd7b39f5-470b-4ea5-ad51-5095800f68e6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\01 Title">
+      <UniqueIdentifier>{e609f14d-e6cd-4bb0-9853-69b79712d428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\03 Stage\00 TestStage">
+      <UniqueIdentifier>{10af8bd8-e0f4-4e3c-be97-5027b9df3390}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\01 Title">
+      <UniqueIdentifier>{dad9f9a1-dadc-489d-b893-ba48074a17bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\01 Title\Camera_Title">
+      <UniqueIdentifier>{967a63ac-c1d6-4e6b-a925-c0454594fd85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\02 WorldMap">
+      <UniqueIdentifier>{1f448c6c-1dd4-4529-91f7-41734321d884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage">
+      <UniqueIdentifier>{3a32d7da-0002-47f3-9613-e5da0af6272c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\98 Loading">
+      <UniqueIdentifier>{14c79a70-48ad-4570-9bc7-45331157bdc1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static\00 Camera">
+      <UniqueIdentifier>{3fd5e0fb-6f23-457a-a798-9c3120913d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static\00 Camera\Camera_Free">
+      <UniqueIdentifier>{d74ac6c1-9449-448c-8958-6f3c346ffe1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static\01 Objects">
+      <UniqueIdentifier>{362ff016-8158-4cac-8594-5bd25ddeb614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static\01 Objects\Environment">
+      <UniqueIdentifier>{9bef5da2-fd8e-40b8-8a09-290a3f31940f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static\02 UI">
+      <UniqueIdentifier>{5fe1f57d-67d6-4d04-b4c3-3baf46fe4b2b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static\02 UI\BackGround">
+      <UniqueIdentifier>{3ba7f106-c269-4105-9ee1-ffd0265d6044}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static\02 UI\Loading_Screen">
+      <UniqueIdentifier>{bcf3371f-4886-4c32-a922-eabb8b007457}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static\02 UI\Loading_Image">
+      <UniqueIdentifier>{1bb84fd1-a8b1-494c-81af-8a3e6ab148ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\01 Title\Yoshi_Title">
+      <UniqueIdentifier>{b5656f35-4c76-4bc7-9f47-57d58580a679}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\02 WorldMap\Yoshi_World">
+      <UniqueIdentifier>{f24a6802-10ce-4eff-bf88-0539e0f02594}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static\00 Camera\Camera_Follow">
+      <UniqueIdentifier>{bab3ff5f-d7ee-4c6e-ba06-f236ee8e9820}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\03 Stage\01 TownTrain">
+      <UniqueIdentifier>{90d864a5-d2cd-4810-81b2-704a5c29375b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static\00 Camera\Camera_SideScroll">
+      <UniqueIdentifier>{f1537b64-458a-4d09-a2b9-449db4de4c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="96 StateMachine">
+      <UniqueIdentifier>{ae1976fb-a20a-4ad1-a1b3-854ab2d56e23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Player">
+      <UniqueIdentifier>{70c7472f-3a57-42d9-b48d-4127723cc914}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Player\Egg">
+      <UniqueIdentifier>{d1b6a75e-f17d-4070-9aac-fc158aa0d722}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Player\Yoshi_Stage">
+      <UniqueIdentifier>{5b6794c4-434c-43ef-8ca9-6bc527110d08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Player\Yoshi_Stage\Yoshi_Stage_State">
+      <UniqueIdentifier>{d5ccfab5-cbf7-4e93-8dbd-4d71e34f918e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Player\Yoshi_Tongue">
+      <UniqueIdentifier>{7873aef5-ce90-4211-9aa1-eb18b4edd6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Player\Yoshi_Tongue\Yoshi_Tongue_State">
+      <UniqueIdentifier>{138528e7-aa9e-4a22-8465-19b40864bf65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Monster">
+      <UniqueIdentifier>{3f197a6f-0b54-424e-9958-82721d94988f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Monster\Heyho">
+      <UniqueIdentifier>{c343a1bf-1a72-4568-874d-96e4345d7c19}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Monster\Heyho\Heyho_State">
+      <UniqueIdentifier>{6df38107-b98d-41b4-ad70-964822c7d5e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Monster\Packun">
+      <UniqueIdentifier>{67aad7dc-be7e-4b07-83a9-d7b0e8ea092d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Monster\Packun\Packun_State">
+      <UniqueIdentifier>{8f119c8c-ba7d-4795-a7f8-49c0a5db5509}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Collision">
+      <UniqueIdentifier>{3859bb41-a40c-4128-99a6-0405c221990e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Collision\Road">
+      <UniqueIdentifier>{d50a6ca6-08f3-4a0a-b274-6eb4d1aeb8b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Collision\OneWayFloor">
+      <UniqueIdentifier>{3e3886c6-80b4-4775-b321-32b878e522e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Collision\Egg_Break">
+      <UniqueIdentifier>{b4ad16fd-4faa-41f7-a450-9921dc9f2856}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Collision\Egg_Interact">
+      <UniqueIdentifier>{e2c82723-d52c-4d92-bb11-3dfba7bfc20c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Trigger">
+      <UniqueIdentifier>{83c8398a-0e76-4335-9b90-8dfe7d65d737}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks">
+      <UniqueIdentifier>{29106662-a501-40b0-8790-648fde2471f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\Cloud">
+      <UniqueIdentifier>{3fe6a5d2-f1f6-42c8-8aa4-5665fc8c0989}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\GoalTape">
+      <UniqueIdentifier>{7d7eea80-ce49-496b-8df0-2f80c6bea647}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\RollTape">
+      <UniqueIdentifier>{b9a49dea-e0bf-41f9-ad27-fc048e6cfd50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\Stairs">
+      <UniqueIdentifier>{c8ec0536-0f89-412c-9d91-416e7a6bba39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\TransformObjects">
+      <UniqueIdentifier>{9b97db85-617d-4c85-a60a-7e0538ecc3ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="01 Scene\99 Loading">
+      <UniqueIdentifier>{e594227d-594f-4b09-a2ba-d3701371fe33}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Item">
+      <UniqueIdentifier>{0abaabb4-be26-448e-b386-f3263939b46d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Item\Coin">
+      <UniqueIdentifier>{9e91ede7-fc5b-44f4-b49c-d56b06f4ce36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Item\Flower">
+      <UniqueIdentifier>{bd6c10bd-4db6-4ba7-9260-0fe3c189e139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\UI">
+      <UniqueIdentifier>{e78ecf5c-a543-47bf-8449-676b5eb01941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\UI\EggCursor">
+      <UniqueIdentifier>{497615ba-f066-44aa-8562-0b186a927f23}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\UI\UI_Coin">
+      <UniqueIdentifier>{77559b1b-58f5-4693-8c8d-7e75f7061ffa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static\03 Mouse">
+      <UniqueIdentifier>{f0d9c5ab-8622-49da-9def-187b67cc27af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\00 Static\01 Objects\Sky">
+      <UniqueIdentifier>{28627535-4b88-442f-b145-9d2e67cac85e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Collision\Hill">
+      <UniqueIdentifier>{d1257d3c-3d59-4d3d-8048-e96fc5bcea1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\TransformObjects\TransformBridge">
+      <UniqueIdentifier>{69386ff2-cf51-4993-b142-8e03e1871a96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\TransformObjects\TransformFountain">
+      <UniqueIdentifier>{97f69109-8dd7-44aa-90cd-a4b0e73c0521}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\TransformObjects\TransformHouse">
+      <UniqueIdentifier>{14db1f20-e39e-463f-a416-dc0bec79ab82}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Item\Heart">
+      <UniqueIdentifier>{b9592d43-7b2f-45e2-ab75-00510a1264b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\UI\Open_Flower">
+      <UniqueIdentifier>{250785d9-0fd2-4e13-851a-26def60b1284}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\UI\UI_Flower">
+      <UniqueIdentifier>{08384509-4049-4caf-b19a-645ac311fefa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\UI\UI_Flower\UI_SingleFlower">
+      <UniqueIdentifier>{dfa035c9-4e39-48fc-87d6-0b78a4e30cc2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\TrainPlatform">
+      <UniqueIdentifier>{91953c93-7654-48da-bc33-ac1b5be281f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\SteamTrain">
+      <UniqueIdentifier>{09d8a780-43d3-4ce7-9b2c-4c5919ea0688}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\SteamTrain\SteamTrain">
+      <UniqueIdentifier>{9ac146c8-e7e4-44f3-ac2a-dcbc8402facd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\SteamTrain\TrainA">
+      <UniqueIdentifier>{9564da19-dbe3-46e0-bbce-669a12b03525}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Gimmicks\SteamTrain\TrainB">
+      <UniqueIdentifier>{853ad3c6-1cea-4fb9-a9ba-842fce3cf63e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Effect">
+      <UniqueIdentifier>{e5ba94bd-287a-4da3-9260-9fb5962390f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Effect\GoalEffect">
+      <UniqueIdentifier>{b0ba2998-0bee-41da-a150-088663f66673}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Effect\GoalText">
+      <UniqueIdentifier>{16752e13-c865-490f-b554-54153c332d92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Effect\Hit">
+      <UniqueIdentifier>{aaf8d2b9-42a6-4091-845a-9d0c137610b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Effect\Smoke">
+      <UniqueIdentifier>{b0c9dd75-83ca-4cad-9ea4-e1ae0e417368}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\Effect\Star">
+      <UniqueIdentifier>{e4a29a24-8a7d-4ae7-8c68-fa7ba46e2330}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="95 SoundManager">
+      <UniqueIdentifier>{4b7e59c2-c77d-46d3-bcf4-423ae27511c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02 GameObject\03 Stage\UI\EndingCredit">
+      <UniqueIdentifier>{185ea76c-8497-4b32-9496-f1527bae37d6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Client.h">
+      <Filter>99 Default</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>99 Default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>99 Default</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>98 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\Defines.h">
+      <Filter>98 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Headers\MainApp.h">
+      <Filter>00 MainApp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Back_Logo.h">
+      <Filter>02 GameObject\00 Static\02 UI\BackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Scene_Logo.h">
+      <Filter>01 Scene\00 Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Scene_Title.h">
+      <Filter>01 Scene\01 Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Environment.h">
+      <Filter>02 GameObject\00 Static\01 Objects\Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Camera_Free.h">
+      <Filter>02 GameObject\00 Static\00 Camera\Camera_Free</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Camera_Title.h">
+      <Filter>02 GameObject\01 Title\Camera_Title</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Scene_Test.h">
+      <Filter>01 Scene\03 Stage\00 TestStage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Scene_WorldMap.h">
+      <Filter>01 Scene\02 WorldMap</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Scene_Loading.h">
+      <Filter>01 Scene\98 Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Loading_Screen.h">
+      <Filter>02 GameObject\00 Static\02 UI\Loading_Screen</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Loading_Image.h">
+      <Filter>02 GameObject\00 Static\02 UI\Loading_Image</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Camera_Follow.h">
+      <Filter>02 GameObject\00 Static\00 Camera\Camera_Follow</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Yoshi_Stage.h">
+      <Filter>02 GameObject\03 Stage\Player\Yoshi_Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Yoshi_World.h">
+      <Filter>02 GameObject\02 WorldMap\Yoshi_World</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Scene_Train.h">
+      <Filter>01 Scene\03 Stage\01 TownTrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Camera_SideScroll.h">
+      <Filter>02 GameObject\00 Static\00 Camera\Camera_SideScroll</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\StateMachine.h">
+      <Filter>96 StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\State.h">
+      <Filter>96 StateMachine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Yoshi_Stage_State.h">
+      <Filter>02 GameObject\03 Stage\Player\Yoshi_Stage\Yoshi_Stage_State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Yoshi_Tongue.h">
+      <Filter>02 GameObject\03 Stage\Player\Yoshi_Tongue</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Yoshi_Tongue_State.h">
+      <Filter>02 GameObject\03 Stage\Player\Yoshi_Tongue\Yoshi_Tongue_State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Yoshi_Egg.h">
+      <Filter>02 GameObject\03 Stage\Player\Egg</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Heyho.h">
+      <Filter>02 GameObject\03 Stage\Monster\Heyho</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Heyho_State.h">
+      <Filter>02 GameObject\03 Stage\Monster\Heyho\Heyho_State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Packun.h">
+      <Filter>02 GameObject\03 Stage\Monster\Packun</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Packun_State.h">
+      <Filter>02 GameObject\03 Stage\Monster\Packun\Packun_State</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Road.h">
+      <Filter>02 GameObject\03 Stage\Collision\Road</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Trigger.h">
+      <Filter>02 GameObject\03 Stage\Trigger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Loading.h">
+      <Filter>01 Scene\99 Loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\UI_Coin.h">
+      <Filter>02 GameObject\03 Stage\UI\UI_Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Coin.h">
+      <Filter>02 GameObject\03 Stage\Item\Coin</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\EggCursor.h">
+      <Filter>02 GameObject\03 Stage\UI\EggCursor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Mouse_Manager.h">
+      <Filter>02 GameObject\00 Static\03 Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Flower.h">
+      <Filter>02 GameObject\03 Stage\Item\Flower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Egg_Interact.h">
+      <Filter>02 GameObject\03 Stage\Collision\Egg_Interact</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Default\MonsterInfo.h">
+      <Filter>98 Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\OneWayFloor.h">
+      <Filter>02 GameObject\03 Stage\Collision\OneWayFloor</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\RollTape.h">
+      <Filter>02 GameObject\03 Stage\Gimmicks\RollTape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Sky.h">
+      <Filter>02 GameObject\00 Static\01 Objects\Sky</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Hill.h">
+      <Filter>02 GameObject\03 Stage\Collision\Hill</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Cloud.h">
+      <Filter>02 GameObject\03 Stage\Gimmicks\Cloud</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\TransformBridge.h">
+      <Filter>02 GameObject\03 Stage\Gimmicks\TransformObjects\TransformBridge</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\TransformFountain.h">
+      <Filter>02 GameObject\03 Stage\Gimmicks\TransformObjects\TransformFountain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\TransformHouse.h">
+      <Filter>02 GameObject\03 Stage\Gimmicks\TransformObjects\TransformHouse</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Heart.h">
+      <Filter>02 GameObject\03 Stage\Item\Heart</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Stairs.h">
+      <Filter>02 GameObject\03 Stage\Gimmicks\Stairs</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Open_FlowerUI.h">
+      <Filter>02 GameObject\03 Stage\UI\Open_Flower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\UI_Flower.h">
+      <Filter>02 GameObject\03 Stage\UI\UI_Flower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\UI_SingleFlower.h">
+      <Filter>02 GameObject\03 Stage\UI\UI_Flower\UI_SingleFlower</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\TrainPlatform.h">
+      <Filter>02 GameObject\03 Stage\Gimmicks\TrainPlatform</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\SteamTrain.h">
+      <Filter>02 GameObject\03 Stage\Gimmicks\SteamTrain\SteamTrain</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\TrainA.h">
+      <Filter>02 GameObject\03 Stage\Gimmicks\SteamTrain\TrainA</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\TrainB.h">
+      <Filter>02 GameObject\03 Stage\Gimmicks\SteamTrain\TrainB</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\GoalTape.h">
+      <Filter>02 GameObject\03 Stage\Gimmicks\GoalTape</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\GoalText.h">
+      <Filter>02 GameObject\03 Stage\Effect\GoalText</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\GoalEffect.h">
+      <Filter>02 GameObject\03 Stage\Effect\GoalEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Effect_Hit.h">
+      <Filter>02 GameObject\03 Stage\Effect\Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Effect_Smoke.h">
+      <Filter>02 GameObject\03 Stage\Effect\Smoke</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\SoundMgr.h">
+      <Filter>95 SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\Effect_Star.h">
+      <Filter>02 GameObject\03 Stage\Effect\Star</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\Yoshi%27sCraftedWorld\Client\Headers\EndingCredit.h">
+      <Filter>02 GameObject\03 Stage\UI\EndingCredit</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Client.cpp">
+      <Filter>99 Default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>99 Default</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Codes\MainApp.cpp">
+      <Filter>00 MainApp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Back_Logo.cpp">
+      <Filter>02 GameObject\00 Static\02 UI\BackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Scene_Logo.cpp">
+      <Filter>01 Scene\00 Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Scene_Title.cpp">
+      <Filter>01 Scene\01 Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Environment.cpp">
+      <Filter>02 GameObject\00 Static\01 Objects\Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Camera_Free.cpp">
+      <Filter>02 GameObject\00 Static\00 Camera\Camera_Free</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Camera_Title.cpp">
+      <Filter>02 GameObject\01 Title\Camera_Title</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Scene_Test.cpp">
+      <Filter>01 Scene\03 Stage\00 TestStage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Scene_WorldMap.cpp">
+      <Filter>01 Scene\02 WorldMap</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Scene_Loading.cpp">
+      <Filter>01 Scene\98 Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Loading_Screen.cpp">
+      <Filter>02 GameObject\00 Static\02 UI\Loading_Screen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Loading_Image.cpp">
+      <Filter>02 GameObject\00 Static\02 UI\Loading_Image</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Camera_Follow.cpp">
+      <Filter>02 GameObject\00 Static\00 Camera\Camera_Follow</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Yoshi_World.cpp">
+      <Filter>02 GameObject\02 WorldMap\Yoshi_World</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Yoshi_Stage.cpp">
+      <Filter>02 GameObject\03 Stage\Player\Yoshi_Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Scene_Train.cpp">
+      <Filter>01 Scene\03 Stage\01 TownTrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Camera_SideScroll.cpp">
+      <Filter>02 GameObject\00 Static\00 Camera\Camera_SideScroll</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Yoshi_Stage_State.cpp">
+      <Filter>02 GameObject\03 Stage\Player\Yoshi_Stage\Yoshi_Stage_State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Yoshi_Tongue.cpp">
+      <Filter>02 GameObject\03 Stage\Player\Yoshi_Tongue</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Yoshi_Tongue_State.cpp">
+      <Filter>02 GameObject\03 Stage\Player\Yoshi_Tongue\Yoshi_Tongue_State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Yoshi_Egg.cpp">
+      <Filter>02 GameObject\03 Stage\Player\Egg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Heyho.cpp">
+      <Filter>02 GameObject\03 Stage\Monster\Heyho</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Heyho_State.cpp">
+      <Filter>02 GameObject\03 Stage\Monster\Heyho\Heyho_State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Packun.cpp">
+      <Filter>02 GameObject\03 Stage\Monster\Packun</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Packun_State.cpp">
+      <Filter>02 GameObject\03 Stage\Monster\Packun\Packun_State</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Road.cpp">
+      <Filter>02 GameObject\03 Stage\Collision\Road</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Trigger.cpp">
+      <Filter>02 GameObject\03 Stage\Trigger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Loading.cpp">
+      <Filter>01 Scene\99 Loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\UI_Coin.cpp">
+      <Filter>02 GameObject\03 Stage\UI\UI_Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Coin.cpp">
+      <Filter>02 GameObject\03 Stage\Item\Coin</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\EggCursor.cpp">
+      <Filter>02 GameObject\03 Stage\UI\EggCursor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Mouse_Manager.cpp">
+      <Filter>02 GameObject\00 Static\03 Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Flower.cpp">
+      <Filter>02 GameObject\03 Stage\Item\Flower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Egg_Interact.cpp">
+      <Filter>02 GameObject\03 Stage\Collision\Egg_Interact</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\OneWayFloor.cpp">
+      <Filter>02 GameObject\03 Stage\Collision\OneWayFloor</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\RollTape.cpp">
+      <Filter>02 GameObject\03 Stage\Gimmicks\RollTape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Sky.cpp">
+      <Filter>02 GameObject\00 Static\01 Objects\Sky</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Hill.cpp">
+      <Filter>02 GameObject\03 Stage\Collision\Hill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Cloud.cpp">
+      <Filter>02 GameObject\03 Stage\Gimmicks\Cloud</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\TransformBridge.cpp">
+      <Filter>02 GameObject\03 Stage\Gimmicks\TransformObjects\TransformBridge</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\TransformFountain.cpp">
+      <Filter>02 GameObject\03 Stage\Gimmicks\TransformObjects\TransformFountain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\TransformHouse.cpp">
+      <Filter>02 GameObject\03 Stage\Gimmicks\TransformObjects\TransformHouse</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Heart.cpp">
+      <Filter>02 GameObject\03 Stage\Item\Heart</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Stairs.cpp">
+      <Filter>02 GameObject\03 Stage\Gimmicks\Stairs</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Open_FlowerUI.cpp">
+      <Filter>02 GameObject\03 Stage\UI\Open_Flower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\UI_Flower.cpp">
+      <Filter>02 GameObject\03 Stage\UI\UI_Flower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\UI_SingleFlower.cpp">
+      <Filter>02 GameObject\03 Stage\UI\UI_Flower\UI_SingleFlower</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\TrainPlatform.cpp">
+      <Filter>02 GameObject\03 Stage\Gimmicks\TrainPlatform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\SteamTrain.cpp">
+      <Filter>02 GameObject\03 Stage\Gimmicks\SteamTrain\SteamTrain</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\TrainA.cpp">
+      <Filter>02 GameObject\03 Stage\Gimmicks\SteamTrain\TrainA</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\TrainB.cpp">
+      <Filter>02 GameObject\03 Stage\Gimmicks\SteamTrain\TrainB</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\GoalTape.cpp">
+      <Filter>02 GameObject\03 Stage\Gimmicks\GoalTape</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\GoalText.cpp">
+      <Filter>02 GameObject\03 Stage\Effect\GoalText</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\GoalEffect.cpp">
+      <Filter>02 GameObject\03 Stage\Effect\GoalEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Effect_Hit.cpp">
+      <Filter>02 GameObject\03 Stage\Effect\Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Effect_Smoke.cpp">
+      <Filter>02 GameObject\03 Stage\Effect\Smoke</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\SoundMgr.cpp">
+      <Filter>95 SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\Effect_Star.cpp">
+      <Filter>02 GameObject\03 Stage\Effect\Star</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Codes\EndingCredit.cpp">
+      <Filter>02 GameObject\03 Stage\UI\EndingCredit</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Client.ico">
+      <Filter>99 Default</Filter>
+    </Image>
+    <Image Include="small.ico">
+      <Filter>99 Default</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt">
+      <Filter>99 Default</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Client.rc">
+      <Filter>99 Default</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Blend.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Collider.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Effect.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_LightAcc.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Mesh.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Sky.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Terrain.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_UI.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Default.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+    <FxCompile Include="..\..\..\Yoshi%27sCraftedWorld\Client\Bin\Shader\Shader_Coin.fx">
+      <Filter>97 ShaderFiles</Filter>
+    </FxCompile>
+  </ItemGroup>
+</Project>
